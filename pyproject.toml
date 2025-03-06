@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "xrp-transfer-lib"
+version = "0.1.0"
+description = ""
+authors = ["George Kozyrev <me@gkozyrev.ru>"]
+readme = "README.md"
+packages = [{include = "xrp_transfer_lib"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+xrpl-py = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
