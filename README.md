@@ -1,4 +1,3 @@
-```markdown
 # XRP Ledger Connector
 
 A Python library for interacting with the XRP Ledger, providing functionalities for wallet management, balance checks, and XRP transfers with memos.
